@@ -16,7 +16,7 @@ kubectl logs "pod-name" -n "namespace" --tail=100
 # it will create one deployment file with nginx image
 kubectl create deployment nginx-deployment --image=nginx  --dry-run=client -o yaml > nginx-deployment.yaml
 
-# it is taking entier deployment pod backup 
+# it is taking entier deployment image backup 
 kubectl get deployment "deployment-pod" -o yaml -n <namespace> > deployment_backup.yaml                      
                                         
 # it will copy all logs to one file
