@@ -8,7 +8,7 @@ kubectl scale deployment <deployment-pod> -n <namespace> --replicas=2
 kubectl cp -n <namespace> <pod-name>:/path logs>/ /home/ec2-user/filename 
                                                                               
 # it will download image in the cluster 
-sudo docker load <image-name>  
+sudo docker load <image-name>utreesrydtrftuy  
                                                     
 # it is showing only latest 100 lines logs only 
 kubectl logs <pod-name> -n <namespace> --tail=100        
